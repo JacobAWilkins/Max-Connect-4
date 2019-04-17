@@ -37,3 +37,25 @@ In minimax, each valid move is put into an ArrayList of Integers and tested indi
 
 #### base case:
 The base case for the minimax search is determined by testing if the current depth of the search is equal to the max depth specified. When this condition is met, the function returns the score for the leaf nodes.
+
+### Execution Times
+
+| Depth | Limit	CPU Runtime (s) |
+| ----- | --------------------- |
+| 0 | 0.032 |
+| 1 |0.034 |
+| 2	| 0.035 |
+| 3	| 0.035 |
+| 4	| 0.098 |
+| 5	| 0.089 |
+| 6	| 0.143 |
+| 7	| 0.228 |
+| 8 | 0.254 |
+| 9 | 0.291 |
+| 10 | 0.417 |
+| 11 | 0.705 |
+| 12 | 1.963 |
+| 13 | 5.024 |
+| 14 | 17.408 |
+| 15 | 53.064 |
+| 16 | 183.295 |
