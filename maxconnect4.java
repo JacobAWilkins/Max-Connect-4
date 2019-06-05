@@ -1,3 +1,19 @@
+/*H****************************************************************
+* FILENAME :        maxconnect4.java
+*
+* DESCRIPTION :
+*       Controls the flow of the Max Connect 4 game
+*
+* NOTES :
+*       There are two game modes;
+*       interactive and one-move.
+*
+*       Copyright 2019, Jacob Wilkins.  All rights reserved.
+* 
+* AUTHOR :    Jacob Wilkins        START DATE :    4 Mar 19
+*
+*H*/
+
 import java.io.*;
 import java.util.Scanner;
 
