@@ -1,3 +1,24 @@
+/*H*************************************************************************************
+* FILENAME :        AiPlayer.java
+*
+* DESCRIPTION :
+*       Determines which move to make 
+*
+* PUBLIC FUNCTIONS :
+*       int     findBestPlay( GameBoard, int, int )
+*       Move    minimax( GameBoard, final int, int, final boolean, int, int, int )
+*       int     eval( GameBoard, int )
+*
+* NOTES :
+*       These functions use minimax and an
+*       evaluation table to choose a move.
+*
+*       Copyright 2019, Jacob Wilkins.  All rights reserved.
+* 
+* AUTHOR :    Jacob Wilkins        START DATE :    4 Mar 19
+*
+*H*/
+
 import java.util.*;
 import static java.lang.Integer.*;
 
