@@ -1,3 +1,30 @@
+/*H****************************************************************
+* FILENAME :        GameBoard.java
+*
+* DESCRIPTION :
+*       Controls the state of the gameboard 
+*
+* PUBLIC FUNCTIONS :
+*       int     getScore( int )
+*       int     getCurrentTurn( )
+*       int     getPieceCount( )
+*       int[][] getGameBoard( )
+*       boolean isValidPlay( int )
+*       boolean playPiece( int )
+*       void    removePiece( int )
+*       void    printGameBoard( )
+*       void    printGameBoardToFile( String )
+*
+* NOTES :
+*       These functions allow the game to
+*       access information about the gameboard.
+*
+*       Copyright 2019, Jacob Wilkins.  All rights reserved.
+* 
+* AUTHOR :    Jacob Wilkins        START DATE :    4 Mar 19
+*
+*H*/
+
 import java.io.*;
 
 public class GameBoard {
